@@ -54,7 +54,7 @@ function mostrarTabla(aparato, dificultad) {
     html += "</table>";
   }
 
-  html += "<br><button onclick=\"mostrarDificultad('" + aparato + "')\">⬅ Volver</button>";
+  html += `<br><button onclick="mostrarDificultad('${aparato}')">⬅ Volver</button>`;
 
   cont.innerHTML = html;
 }
