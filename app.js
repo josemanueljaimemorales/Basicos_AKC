@@ -1,4 +1,3 @@
-alert("VERSION NUEVA AKC");
 let dataGlobal = [];
 
 fetch('data/basicos.json')
