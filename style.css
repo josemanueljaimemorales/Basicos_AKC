@@ -1,31 +1,43 @@
 body {
   margin:0;
   font-family: Arial;
-  background: linear-gradient(135deg, #000000, #1c1c1c);
+  background: linear-gradient(135deg, #000000, #1a1a1a);
   color:white;
   text-align:center;
 }
 
-h1 {
+.header {
   padding:20px;
+}
+
+.logo {
+  width:100px;
+  margin-bottom:10px;
 }
 
 button {
   margin:10px;
-  padding:20px;
+  padding:18px;
   font-size:18px;
-  border-radius:12px;
+  border-radius:15px;
   border:none;
-  background:#ffd700;
+  background: linear-gradient(45deg,#f7971e,#ffd200);
+  color:black;
   cursor:pointer;
+  transition:0.3s;
+}
+
+button:hover {
+  transform:scale(1.1);
 }
 
 table {
   margin:auto;
   border-collapse: collapse;
+  margin-top:20px;
 }
 
 td {
   border:1px solid white;
-  padding:10px;
+  padding:12px;
 }
