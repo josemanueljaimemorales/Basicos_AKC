@@ -31,15 +31,12 @@ function mostrarAparatos() {
 function mostrarDificultad(aparato) {
   const cont = document.getElementById("contenido");
 
-  const dificultades = [...new Set(
-    dataGlobal
-      .filter(d => d.aparato === aparato)
-      .map(d => d.dificultad)
-  )];
+  const dificultades = ["A","B","C","D"]; // FORZADAS
 
-  cont.innerHTML = dificultades.map(d =>
-    `<button onclick="mostrarTabla('${aparato}','${d}')">${d}</button>`
-  ).join('');
+  cont.innerHTML = `<h2>${aparato}</h2>` +
+    dificultades.map(d =>
+      `<button onclick="mostrarTabla('${aparato}','${d}')">${d}</button>`
+    ).join('');
 }
 
 function mostrarTabla(aparato, dificultad) {
