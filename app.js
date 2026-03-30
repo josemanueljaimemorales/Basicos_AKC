@@ -13,7 +13,7 @@ function mostrarAparatos() {
 
   let html = "";
   for (let i = 0; i < aparatos.length; i++) {
-    html += "<button onclick=\"mostrarDificultad('" + aparatos[i] + "')\">" + aparatos[i] + "</button>";
+    html += `<button onclick="mostrarDificultad('${aparatos[i]}')">${aparatos[i]}</button>`;
   }
 
   cont.innerHTML = html;
