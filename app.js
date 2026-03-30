@@ -1,6 +1,6 @@
 let dataGlobal = [];
 
-fetch('data/data/basicos_completo_OK.json')
+fetch('data/basicos_completo_OK.json')
   .then(res => res.json())
   .then(data => {
     dataGlobal = data;
