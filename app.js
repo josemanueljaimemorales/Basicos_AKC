@@ -2,7 +2,7 @@ console.log("APP INICIANDO");
 
 let dataGlobal = [];
 
-fetch('./data/basicos.json')
+fetch('data/basicos.json')
   .then(res => {
     if (!res.ok) throw new Error("No se pudo cargar JSON");
     return res.json();
