@@ -1,10 +1,21 @@
+console.log("APP INICIANDO");
+
 let dataGlobal = [];
 
-fetch('data/basicos.json')
-  .then(res => res.json())
+fetch('./data/basicos.json')
+  .then(res => {
+    if (!res.ok) throw new Error("No se pudo cargar JSON");
+    return res.json();
+  })
   .then(data => {
+    console.log("DATA OK", data.length);
     dataGlobal = data;
     mostrarAparatos();
+  })
+  .catch(err => {
+    document.getElementById("contenido").innerHTML =
+      "<h2 style='color:red'>Error cargando datos</h2>";
+    console.error(err);
   });
 
 function mostrarAparatos() {
@@ -38,15 +49,13 @@ function mostrarTabla(aparato, dificultad) {
     .filter(d => d.aparato === aparato && d.dificultad === dificultad)
     .sort((a,b) => a.orden - b.orden);
 
-  let html = "<h2>" + aparato + " - " + dificultad + "</h2>";
-  html += "<table>";
+  let html = `<h2>${aparato} - ${dificultad}</h2><table>`;
 
   elementos.forEach(e => {
     html += `<tr><td>${e.orden}</td><td>${e.elemento}</td></tr>`;
   });
 
-  html += "</table>";
-  html += `<br><button onclick="mostrarAparatos()">⬅ Volver</button>`;
+  html += "</table><br><button onclick='mostrarAparatos()'>Volver</button>";
 
   cont.innerHTML = html;
 }
