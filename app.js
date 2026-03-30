@@ -27,7 +27,7 @@ function mostrarDificultad(aparato) {
   let html = "<h2>" + aparato + "</h2>";
 
   for (let i = 0; i < dificultades.length; i++) {
-    html += "<button onclick=\"mostrarTabla('" + aparato + "','" + dificultades[i] + "')\">" + dificultades[i] + "</button>";
+    html += `<button onclick="mostrarTabla('${aparato}','${dificultades[i]}')">${dificultades[i]}</button>`;
   }
 
   html += "<br><br><button onclick='mostrarAparatos()'>⬅ Volver</button>";
