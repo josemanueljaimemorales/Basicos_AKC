@@ -45,7 +45,7 @@
     "aparato": "ARZON",
     "dificultad": "A",
     "orden": 8,
-    "elemento": "Salida finlandesa"
+    "elemento": "Salida finlandesa o de rusas"
   },
   {
     "aparato": "ARZON",
@@ -63,7 +63,7 @@
     "aparato": "ARZON",
     "dificultad": "B",
     "orden": 3,
-    "elemento": "5 circulos sobre arzones"
+    "elemento": "3 circulos sobre arzones"
   },
   {
     "aparato": "ARZON",
@@ -93,7 +93,7 @@
     "aparato": "ARZON",
     "dificultad": "B",
     "orden": 8,
-    "elemento": "Salida finlandesa"
+    "elemento": "Salida finlandesa o rusas"
   },
   {
     "aparato": "ARZON",
@@ -129,7 +129,7 @@
     "aparato": "ARZON",
     "dificultad": "C",
     "orden": 6,
-    "elemento": "Bajada"
+    "elemento": "Bajada "
   },
   {
     "aparato": "ARZON",
@@ -153,7 +153,7 @@
     "aparato": "ARZON",
     "dificultad": "C",
     "orden": 10,
-    "elemento": "Splindle a intento de kolivanov"
+    "elemento": "1/2 Splindle a intento de kolivanov"
   },
   {
     "aparato": "ARZON",
@@ -189,7 +189,7 @@
     "aparato": "ARZON",
     "dificultad": "D",
     "orden": 6,
-    "elemento": "Bajada"
+    "elemento": "Bajada "
   },
   {
     "aparato": "ARZON",
@@ -201,18 +201,24 @@
     "aparato": "ARZON",
     "dificultad": "D",
     "orden": 8,
-    "elemento": "Subida a 2 arzones"
+    "elemento": "2 Rusas"
   },
   {
     "aparato": "ARZON",
     "dificultad": "D",
     "orden": 9,
-    "elemento": "Bajada lateral"
+    "elemento": "Subida a 2 arzones"
   },
   {
     "aparato": "ARZON",
     "dificultad": "D",
     "orden": 10,
+    "elemento": "Bajada lateral"
+  },
+  {
+    "aparato": "ARZON",
+    "dificultad": "D",
+    "orden": 11,
     "elemento": "Salida Kolivanov"
   },
   {
@@ -225,7 +231,7 @@
     "aparato": "ANILLOS Vuelos",
     "dificultad": "A",
     "orden": 2,
-    "elemento": "Plancha dorsal"
+    "elemento": "Semidislocada (rompimiento)"
   },
   {
     "aparato": "ANILLOS Vuelos",
@@ -249,13 +255,13 @@
     "aparato": "ANILLOS Vuelos",
     "dificultad": "A",
     "orden": 6,
-    "elemento": "Inlocada"
+    "elemento": "2 Inlocadas por encima de anillos"
   },
   {
     "aparato": "ANILLOS Vuelos",
     "dificultad": "A",
     "orden": 7,
-    "elemento": "Dislocada"
+    "elemento": "2 Dislocadas por encima de anillos"
   },
   {
     "aparato": "ANILLOS Vuelos",
@@ -267,7 +273,7 @@
     "aparato": "ANILLOS Vuelos",
     "dificultad": "B",
     "orden": 1,
-    "elemento": "Sandwich a plancha"
+    "elemento": "Sandwich a semidislocada (rompimiento)"
   },
   {
     "aparato": "ANILLOS Vuelos",
@@ -315,7 +321,7 @@
     "aparato": "ANILLOS Vuelos",
     "dificultad": "C",
     "orden": 1,
-    "elemento": "Sandwich a plancha"
+    "elemento": "Sandwich a semidislocada (rompimiento)"
   },
   {
     "aparato": "ANILLOS Vuelos",
@@ -363,7 +369,7 @@
     "aparato": "ANILLOS Vuelos",
     "dificultad": "C",
     "orden": 9,
-    "elemento": "Salida de doble mortal"
+    "elemento": "Salida de doble mortal "
   },
   {
     "aparato": "ANILLOS Vuelos",
@@ -411,217 +417,229 @@
     "aparato": "ANILLOS Vuelos",
     "dificultad": "D",
     "orden": 8,
-    "elemento": "1 gigante"
+    "elemento": "Gigante sostenido "
   },
   {
     "aparato": "ANILLOS Vuelos",
     "dificultad": "D",
     "orden": 9,
-    "elemento": "1 molino"
+    "elemento": "Gigante pasajero "
   },
   {
     "aparato": "ANILLOS Vuelos",
     "dificultad": "D",
     "orden": 10,
-    "elemento": "Salida de doble mortal"
+    "elemento": "Molino sostenido"
+  },
+  {
+    "aparato": "ANILLOS Vuelos",
+    "dificultad": "D",
+    "orden": 11,
+    "elemento": "Molino pasajero"
+  },
+  {
+    "aparato": "ANILLOS Vuelos",
+    "dificultad": "D",
+    "orden": 12,
+    "elemento": "Salida de doble mortal "
   },
   {
     "aparato": "ANILLOS Fuerza",
     "dificultad": "A",
     "orden": 1,
-    "elemento": "L sit en suspension"
+    "elemento": "L sit en suspension 5\""
   },
   {
     "aparato": "ANILLOS Fuerza",
     "dificultad": "A",
     "orden": 2,
-    "elemento": "Plancha dorsal"
+    "elemento": "Plancha dorsal 5\""
   },
   {
     "aparato": "ANILLOS Fuerza",
     "dificultad": "A",
     "orden": 3,
-    "elemento": "Hercules"
+    "elemento": "Hercules 5\""
   },
   {
     "aparato": "ANILLOS Fuerza",
     "dificultad": "A",
     "orden": 4,
-    "elemento": "L sit"
+    "elemento": "Plancha bola 5\""
   },
   {
     "aparato": "ANILLOS Fuerza",
     "dificultad": "A",
     "orden": 5,
-    "elemento": "Plancha bola"
+    "elemento": "L sit 5\""
   },
   {
     "aparato": "ANILLOS Fuerza",
     "dificultad": "A",
     "orden": 6,
-    "elemento": "Parado de Manos"
+    "elemento": "Parado de Manos 5\""
   },
   {
     "aparato": "ANILLOS Fuerza",
     "dificultad": "A",
     "orden": 7,
-    "elemento": "Parado de hombros"
+    "elemento": "Descenso a escuadra abierta (endo)"
   },
   {
     "aparato": "ANILLOS Fuerza",
     "dificultad": "A",
     "orden": 8,
-    "elemento": "Descenso cristo"
+    "elemento": "Descenso cristo 5\""
   },
   {
     "aparato": "ANILLOS Fuerza",
     "dificultad": "B",
     "orden": 1,
-    "elemento": "Plancha dorsal"
+    "elemento": "Plancha dorsal 5\""
   },
   {
     "aparato": "ANILLOS Fuerza",
     "dificultad": "B",
     "orden": 2,
-    "elemento": "Hercules o Kip"
+    "elemento": "Hercules o Kip 5\""
   },
   {
     "aparato": "ANILLOS Fuerza",
     "dificultad": "B",
     "orden": 3,
-    "elemento": "L sit"
+    "elemento": "L sit 5\""
   },
   {
     "aparato": "ANILLOS Fuerza",
     "dificultad": "B",
     "orden": 4,
-    "elemento": "Parado de Manos"
+    "elemento": "Parado de Manos 5\""
   },
   {
     "aparato": "ANILLOS Fuerza",
     "dificultad": "B",
     "orden": 5,
-    "elemento": "Plancha Ext, abi o bola"
+    "elemento": "Escuadra abierta (endo)"
   },
   {
     "aparato": "ANILLOS Fuerza",
     "dificultad": "B",
     "orden": 6,
-    "elemento": "Descenso cristo"
+    "elemento": "Descenso cristo 5\""
   },
   {
     "aparato": "ANILLOS Fuerza",
     "dificultad": "B",
     "orden": 7,
-    "elemento": "Kip o Hercules"
+    "elemento": "Kip o Hercules 5\""
   },
   {
     "aparato": "ANILLOS Fuerza",
     "dificultad": "B",
     "orden": 8,
-    "elemento": "Pajaro"
+    "elemento": "Pajaro 5\""
   },
   {
     "aparato": "ANILLOS Fuerza",
-    "dificultad": "C",
-    "orden": 1,
-    "elemento": "Plancha dorsal"
-  },
-  {
-    "aparato": "ANILLOS Fuerza",
-    "dificultad": "C",
-    "orden": 2,
-    "elemento": "Kip"
-  },
-  {
-    "aparato": "ANILLOS Fuerza",
-    "dificultad": "C",
-    "orden": 3,
-    "elemento": "L sit"
-  },
-  {
-    "aparato": "ANILLOS Fuerza",
-    "dificultad": "C",
-    "orden": 4,
-    "elemento": "Pajaro"
-  },
-  {
-    "aparato": "ANILLOS Fuerza",
-    "dificultad": "C",
-    "orden": 5,
-    "elemento": "L sit a Manos"
-  },
-  {
-    "aparato": "ANILLOS Fuerza",
-    "dificultad": "C",
-    "orden": 6,
-    "elemento": "Plancha Ext, abi o bola"
-  },
-  {
-    "aparato": "ANILLOS Fuerza",
-    "dificultad": "C",
-    "orden": 7,
-    "elemento": "Cristo"
-  },
-  {
-    "aparato": "ANILLOS Fuerza",
-    "dificultad": "C",
-    "orden": 8,
-    "elemento": "Kip Cristo"
-  },
-  {
-    "aparato": "ANILLOS Fuerza",
-    "dificultad": "D",
-    "orden": 1,
-    "elemento": "Kip cristo"
-  },
-  {
-    "aparato": "ANILLOS Fuerza",
-    "dificultad": "D",
-    "orden": 2,
-    "elemento": "Kip plancha"
-  },
-  {
-    "aparato": "ANILLOS Fuerza",
-    "dificultad": "D",
-    "orden": 3,
-    "elemento": "L sit"
-  },
-  {
-    "aparato": "ANILLOS Fuerza",
-    "dificultad": "D",
-    "orden": 4,
-    "elemento": "Parado de Manos"
-  },
-  {
-    "aparato": "ANILLOS Fuerza",
-    "dificultad": "D",
-    "orden": 5,
-    "elemento": "Bajada san pedro con cables"
-  },
-  {
-    "aparato": "ANILLOS Fuerza",
-    "dificultad": "D",
-    "orden": 6,
-    "elemento": "Kip L"
-  },
-  {
-    "aparato": "ANILLOS Fuerza",
-    "dificultad": "D",
-    "orden": 7,
-    "elemento": "Descenso cristo"
-  },
-  {
-    "aparato": "ANILLOS Fuerza",
-    "dificultad": "D",
-    "orden": 8,
-    "elemento": "Plancha dorsal"
-  },
-  {
-    "aparato": "ANILLOS Fuerza",
-    "dificultad": "D",
+    "dificultad": "B",
     "orden": 9,
-    "elemento": "5 segundos cada posicion"
+    "elemento": "Cristo 5\""
+  },
+  {
+    "aparato": "ANILLOS Fuerza",
+    "dificultad": "C",
+    "orden": 1,
+    "elemento": "Plancha dorsal 5\""
+  },
+  {
+    "aparato": "ANILLOS Fuerza",
+    "dificultad": "C",
+    "orden": 2,
+    "elemento": "Kip 5\""
+  },
+  {
+    "aparato": "ANILLOS Fuerza",
+    "dificultad": "C",
+    "orden": 3,
+    "elemento": "L sit 5\""
+  },
+  {
+    "aparato": "ANILLOS Fuerza",
+    "dificultad": "C",
+    "orden": 4,
+    "elemento": "Pajaro 5\""
+  },
+  {
+    "aparato": "ANILLOS Fuerza",
+    "dificultad": "C",
+    "orden": 5,
+    "elemento": "L sit a Manos 5\""
+  },
+  {
+    "aparato": "ANILLOS Fuerza",
+    "dificultad": "C",
+    "orden": 6,
+    "elemento": "Plancha Ext o pajaro 5\""
+  },
+  {
+    "aparato": "ANILLOS Fuerza",
+    "dificultad": "C",
+    "orden": 7,
+    "elemento": "Cristo 5\""
+  },
+  {
+    "aparato": "ANILLOS Fuerza",
+    "dificultad": "C",
+    "orden": 8,
+    "elemento": "Kip Cristo 5\""
+  },
+  {
+    "aparato": "ANILLOS Fuerza",
+    "dificultad": "D",
+    "orden": 1,
+    "elemento": "Kip Cristo 5\""
+  },
+  {
+    "aparato": "ANILLOS Fuerza",
+    "dificultad": "D",
+    "orden": 2,
+    "elemento": "Kip plancha 5\""
+  },
+  {
+    "aparato": "ANILLOS Fuerza",
+    "dificultad": "D",
+    "orden": 3,
+    "elemento": "L sit 5\""
+  },
+  {
+    "aparato": "ANILLOS Fuerza",
+    "dificultad": "D",
+    "orden": 4,
+    "elemento": "Parado de Manos 5\""
+  },
+  {
+    "aparato": "ANILLOS Fuerza",
+    "dificultad": "D",
+    "orden": 5,
+    "elemento": "Bajada san pedro con cables 5\""
+  },
+  {
+    "aparato": "ANILLOS Fuerza",
+    "dificultad": "D",
+    "orden": 6,
+    "elemento": "Kip L 5\""
+  },
+  {
+    "aparato": "ANILLOS Fuerza",
+    "dificultad": "D",
+    "orden": 7,
+    "elemento": "Descenso cristo 5\""
+  },
+  {
+    "aparato": "ANILLOS Fuerza",
+    "dificultad": "D",
+    "orden": 8,
+    "elemento": "Plancha dorsal 5\""
   },
   {
     "aparato": "PARALELAS",
@@ -663,7 +681,7 @@
     "aparato": "PARALELAS",
     "dificultad": "A",
     "orden": 7,
-    "elemento": "Balleston"
+    "elemento": "Cambio sencillo"
   },
   {
     "aparato": "PARALELAS",
@@ -717,6 +735,12 @@
     "aparato": "PARALELAS",
     "dificultad": "B",
     "orden": 8,
+    "elemento": "Balleston a cualquier intento de corte braquial"
+  },
+  {
+    "aparato": "PARALELAS",
+    "dificultad": "B",
+    "orden": 9,
     "elemento": "Cualquier Salida minimo A"
   },
   {
@@ -735,7 +759,7 @@
     "aparato": "PARALELAS",
     "dificultad": "C",
     "orden": 3,
-    "elemento": "Balanceo a manos cambio"
+    "elemento": "Balanceo a manos cambio "
   },
   {
     "aparato": "PARALELAS",
@@ -765,18 +789,24 @@
     "aparato": "PARALELAS",
     "dificultad": "C",
     "orden": 8,
-    "elemento": "Kato a manos"
+    "elemento": "Balleston a cualquier intento de corte braquial"
   },
   {
     "aparato": "PARALELAS",
     "dificultad": "C",
     "orden": 9,
-    "elemento": "Cambio interno"
+    "elemento": "Kato a manos"
   },
   {
     "aparato": "PARALELAS",
     "dificultad": "C",
     "orden": 10,
+    "elemento": "Cambio interno"
+  },
+  {
+    "aparato": "PARALELAS",
+    "dificultad": "C",
+    "orden": 11,
     "elemento": "Cualquier Salida minimo A"
   },
   {
@@ -795,7 +825,7 @@
     "aparato": "PARALELAS",
     "dificultad": "D",
     "orden": 3,
-    "elemento": "Balanceo a manos cambio"
+    "elemento": "2 Stutkhere"
   },
   {
     "aparato": "PARALELAS",
@@ -807,36 +837,42 @@
     "aparato": "PARALELAS",
     "dificultad": "D",
     "orden": 5,
-    "elemento": "Bajada a braquial"
+    "elemento": "2 Diamidov"
   },
   {
     "aparato": "PARALELAS",
     "dificultad": "D",
     "orden": 6,
-    "elemento": "3 vuelos en braquial"
+    "elemento": "Bajada a braquial"
   },
   {
     "aparato": "PARALELAS",
     "dificultad": "D",
     "orden": 7,
-    "elemento": "Felgue 45º o + a L sit 3\""
+    "elemento": "Subida de pecho"
   },
   {
     "aparato": "PARALELAS",
     "dificultad": "D",
     "orden": 8,
-    "elemento": "Algun corte braq o Yamawaki"
+    "elemento": "Felgue 45º o + a L sit 3\""
   },
   {
     "aparato": "PARALELAS",
     "dificultad": "D",
     "orden": 9,
-    "elemento": "3 katos 3\" seguidos"
+    "elemento": "Algun corte braq o Yamawaki"
   },
   {
     "aparato": "PARALELAS",
     "dificultad": "D",
     "orden": 10,
+    "elemento": "Kato a manos 5\""
+  },
+  {
+    "aparato": "PARALELAS",
+    "dificultad": "D",
+    "orden": 11,
     "elemento": "Cualquier Salida minimo A"
   },
   {
@@ -909,25 +945,25 @@
     "aparato": "FIJA",
     "dificultad": "B",
     "orden": 4,
-    "elemento": "Endo"
-  },
-  {
-    "aparato": "FIJA",
-    "dificultad": "B",
-    "orden": 5,
     "elemento": "Cambio sencillo"
   },
   {
     "aparato": "FIJA",
     "dificultad": "B",
+    "orden": 5,
+    "elemento": "Salvada"
+  },
+  {
+    "aparato": "FIJA",
+    "dificultad": "B",
     "orden": 6,
-    "elemento": "2 Gigantes cambio 2 gigantes"
+    "elemento": "Gigante saltado"
   },
   {
     "aparato": "FIJA",
     "dificultad": "B",
     "orden": 7,
-    "elemento": "Salvada"
+    "elemento": "Gigante cambio a gigante"
   },
   {
     "aparato": "FIJA",
@@ -945,7 +981,7 @@
     "aparato": "FIJA",
     "dificultad": "C",
     "orden": 2,
-    "elemento": "Alemana cambio sencillo a"
+    "elemento": "Alemana cambio sencillo a "
   },
   {
     "aparato": "FIJA",
@@ -963,13 +999,13 @@
     "aparato": "FIJA",
     "dificultad": "C",
     "orden": 5,
-    "elemento": "Stalder"
+    "elemento": "Salvada o Stalder"
   },
   {
     "aparato": "FIJA",
     "dificultad": "C",
     "orden": 6,
-    "elemento": "Cambio directo a"
+    "elemento": "Cambio directo a "
   },
   {
     "aparato": "FIJA",
@@ -981,13 +1017,13 @@
     "aparato": "FIJA",
     "dificultad": "C",
     "orden": 8,
-    "elemento": "Endo"
+    "elemento": "Endo "
   },
   {
     "aparato": "FIJA",
     "dificultad": "C",
     "orden": 9,
-    "elemento": "Cambio sencillo salvada"
+    "elemento": "Cambio sencillo"
   },
   {
     "aparato": "FIJA",
@@ -1005,7 +1041,7 @@
     "aparato": "FIJA",
     "dificultad": "D",
     "orden": 2,
-    "elemento": "Alemana cambio sencillo a"
+    "elemento": "Alemana cambio sencillo a "
   },
   {
     "aparato": "FIJA",
@@ -1029,13 +1065,13 @@
     "aparato": "FIJA",
     "dificultad": "D",
     "orden": 6,
-    "elemento": "Cambio sencillo 2 molinos"
+    "elemento": "Cambio directo 2 molinos"
   },
   {
     "aparato": "FIJA",
     "dificultad": "D",
     "orden": 7,
-    "elemento": "Endo"
+    "elemento": "Endo "
   },
   {
     "aparato": "FIJA",
