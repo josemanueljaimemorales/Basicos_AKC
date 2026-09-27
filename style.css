@@ -228,3 +228,151 @@ h2{
   #contenido{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
   .button{width:100%}
 }
+
+/* --- Botones BÁSICOS: tratamiento principal --- */
+#contenido > button{
+  appearance:none;
+  -webkit-appearance:none;
+  position:relative;
+  width:100%;
+  min-height:92px;
+  padding:24px 58px 24px 28px;
+  border:1px solid rgba(91,177,255,.24);
+  border-radius:22px;
+  color:#f7fbff;
+  background:
+    radial-gradient(circle at 12% 0%,rgba(65,157,255,.20),transparent 42%),
+    linear-gradient(145deg,rgba(18,42,68,.96),rgba(5,13,24,.98));
+  box-shadow:
+    0 16px 34px rgba(0,0,0,.34),
+    inset 0 1px 0 rgba(255,255,255,.07),
+    inset 0 -1px 0 rgba(0,0,0,.30);
+  font-family:inherit;
+  font-size:19px;
+  font-weight:900;
+  letter-spacing:.06em;
+  text-transform:uppercase;
+  text-align:left;
+  cursor:pointer;
+  overflow:hidden;
+  transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease,background .18s ease;
+}
+
+#contenido > button::before{
+  content:"";
+  position:absolute;
+  left:0;
+  top:12px;
+  bottom:12px;
+  width:5px;
+  border-radius:0 8px 8px 0;
+  background:linear-gradient(180deg,#64c5ff,#1687ff);
+  box-shadow:0 0 18px rgba(22,135,255,.55);
+}
+
+#contenido > button::after{
+  content:"→";
+  position:absolute;
+  right:24px;
+  top:50%;
+  transform:translateY(-50%);
+  width:34px;
+  height:34px;
+  display:grid;
+  place-items:center;
+  border:1px solid rgba(98,190,255,.25);
+  border-radius:50%;
+  color:#72c6ff;
+  background:rgba(52,139,214,.10);
+  font-size:19px;
+  font-weight:800;
+  transition:transform .18s ease,background .18s ease;
+}
+
+#contenido > button:hover{
+  transform:translateY(-4px);
+  border-color:rgba(91,190,255,.62);
+  background:
+    radial-gradient(circle at 12% 0%,rgba(65,157,255,.28),transparent 45%),
+    linear-gradient(145deg,rgba(22,54,87,.98),rgba(5,13,24,.98));
+  box-shadow:
+    0 22px 42px rgba(0,0,0,.40),
+    0 0 28px rgba(22,135,255,.12),
+    inset 0 1px 0 rgba(255,255,255,.09);
+}
+
+#contenido > button:hover::after{
+  transform:translate(3px,-50%);
+  background:rgba(52,139,214,.22);
+}
+
+#contenido > button:active{
+  transform:translateY(-1px) scale(.995);
+}
+
+#contenido > h2{
+  grid-column:1/-1;
+  width:100%;
+  margin:4px 0 2px;
+  padding:4px 0 14px;
+  font-size:clamp(24px,4vw,34px);
+  letter-spacing:.04em;
+  text-align:left;
+  border-bottom:1px solid rgba(91,177,255,.16);
+}
+
+/* A / B / C / D: botones de nivel con presencia visual */
+#contenido > h2 ~ button{
+  min-height:118px;
+  font-size:30px;
+  text-align:center;
+  padding:24px 48px;
+  background:
+    radial-gradient(circle at 50% 0%,rgba(70,165,255,.20),transparent 55%),
+    linear-gradient(145deg,rgba(18,42,68,.96),rgba(5,13,24,.98));
+}
+
+#contenido > h2 ~ button::before{
+  top:14px;
+  bottom:14px;
+  width:4px;
+}
+
+#contenido > h2 ~ button::after{
+  content:"›";
+  right:18px;
+}
+
+#contenido > h2 ~ button:last-child{
+  grid-column:1/-1;
+  min-height:62px;
+  font-size:15px;
+  text-transform:none;
+  text-align:center;
+  letter-spacing:.02em;
+  padding:17px 28px;
+  color:#c7d9ea;
+  background:rgba(9,22,37,.78);
+}
+
+#contenido > h2 ~ button:last-child::before{display:none}
+#contenido > h2 ~ button:last-child::after{display:none}
+
+@media(max-width:900px){
+  #contenido > button{min-height:88px;font-size:18px}
+  #contenido > h2 ~ button{min-height:104px;font-size:28px}
+}
+
+@media(max-width:600px){
+  #contenido{gap:12px;margin-top:22px}
+  #contenido > button{
+    min-height:84px;
+    padding:22px 54px 22px 24px;
+    border-radius:19px;
+    font-size:17px;
+  }
+  #contenido > h2 ~ button{
+    min-height:96px;
+    font-size:27px;
+  }
+}
